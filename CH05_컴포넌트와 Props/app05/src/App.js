@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import TextBox from './Component/TextBox';
+import { Avatar } from './Component/Avatar';
+import { CommentList } from './Component/CommentList';
+
 
 function App() {
   return (
-    
-    <TextBox />
-    
+    <>
+      <CommentList />
+    </>
   );
 }
 
